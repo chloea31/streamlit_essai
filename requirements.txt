@@ -1,0 +1,14 @@
+# Dependencies : all except python and pip, because we cannot put them into the requirements.txt file
+# As we will use requirements.txt file with pip, we need python and pip at the beginning; so, we don't need to include them into this file
+# => We need to install python and pip by hand before creating the requirements.txt file
+
+plotly
+numpy
+scipy
+pandas
+cobra
+colorlover
+escher
+optlang
+tabulate
+streamlit
